@@ -1,0 +1,117 @@
+#block {
+	width:80%;
+	margin-right:auto;
+	margin-left:auto;
+	background-color:#eeffe6;
+}
+#title {
+	text-align:center;
+	margin-bottom:50px;
+	background-color:#cbffb3;
+}
+#title h1 {
+	font-size:50px;
+	display:inline-block; 
+	vertical-align:50px;
+}
+#title2 {
+	color:#004d00;
+}
+#title p:hover {
+	color:#309900;
+	cursor:pointer;
+}
+main h1{
+	margin-bottom:20px;
+}
+body {
+	background-image:url(leaves.webp);
+	margin:50px 0;
+}
+.cell {
+	display:grid;
+	justify-self:center;
+	margin-top:100px;
+	border-style:solid;
+	border-color:#b9ff99;
+	width:500px;
+	box-shadow:5px 5px 5px;
+}
+#inputs {
+	display:block;
+	margin-left:30px;
+}
+#buttons {
+	margin-left:130px;
+}
+#error {
+	text-align:center;
+	margin:0px;
+	margin-top:20px;
+	margin-bottom:20px;
+	color:#eb4034
+}
+#generic {
+	margin-right:20px;
+	margin-left:20px;
+}
+#password {
+	text-align:center;
+	display:grid;
+	justify-self:center;
+	font-size:25px;
+	font-weight:bold;
+	min-height:30px;
+	max-width:440px;
+	word-break:break-all;
+}
+#info {
+	display:grid;
+	justify-self:center;
+}
+#info h1 {
+	text-align:center;
+}
+#info p {
+	width:600px;
+}
+footer {
+	text-align:center;
+	background-color:#cbffb3;
+	display:block;
+}
+footer a {
+	margin-right:10px;
+	margin-left:10px;
+}
+footer p {
+	text-align:left;
+	display:grid;
+	justify-self:center;
+	max-width:600px;
+}
+#kofi {
+	vertical-align:-30px;
+}
+#email {
+	vertical-align:-18px;
+	text-decoration:none;
+}
+@media only screen and (max-width:800px) {
+	#info p{
+		width:auto;
+		margin-left:10px;
+	}
+	#block {
+		width:100%
+	}
+	.cell {
+		width:auto;
+	}
+	#inputs {
+		margin-left:10px;
+	}
+	#buttons {
+		margin-left:10px;
+	}
+}

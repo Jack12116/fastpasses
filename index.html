@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>FastPasses</title>
+		<meta charset="UTF-8">
+		<meta name = "description" content = "Generate random passwords for any website or app">
+		<meta name = "keywords" content = "password, generator">
+		<meta name = "author" content = "Jack">
+		<link rel = "stylesheet" href = "Layout.css">
+		<script src="jquery-3.7.1.min.js"></script>
+		<script src="script.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	</head>
+	<div id = "block">
+	<body>
+		<header id = "title">
+			<h1>Fast</h1><h1 id = "title2">Passes</h1>
+		</header>
+		<main>
+			<div class = "cell">
+				<p id = "password"></p>
+				<div id = "inputs">
+					<label for = "length">Length:</label>
+					<input type = "text" name = "length" id = "length"> <br> <br>
+					<label for = "capitalized">No. of capitalized characters:</label>
+					<input type = "text" name = "capitalized" id = "capitalized"><br> <br>
+					<label for = "special">No. of special characters:</label>
+					<input type = "text" name = "special" id = "special"><br> <br>
+					<label for = "numbers">No. of numbers:</label>
+					<input type = "text" name = "numbers" id = "numbers">
+					<p id = "error"></p>
+				</div>
+				<div id = "buttons">
+					<input type = "button" value = "Generate" id = "generate" name = "generate">
+					<input type = "button" value = "Generic" id = "generic" name = "generic">
+					<input type = "button" value = "Clear" id = "clear" name = "clear"><br> <br>
+				</div>
+			</div>
+			<div id = "info">
+				<h1>How it Works</h1>
+				<p>Generate: Creates a random password using the inputs entered, then any unaccounted
+				for characters in the length will be generated as random lowercase characters. In order to 
+				generate a password; the length must be greater than zero and the number of characters cannot 
+				exceed the length. All empty fields other than the length will default to zero if left empty.</p>
+				<p>Generic: Creates a random password of 14 - 16 characters and a random number of characters from
+				each field.</p>
+			</div>
+			<br>
+		</main>
+		<footer>
+			<p>Please feel free to contact my email for any bugs you encounter or 
+			questions you have about the site. Thanks for dropping by!</p>
+			<a href='https://ko-fi.com/X8X51FH0TC' id = "kofi" target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi6.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+			<a href = "mailto:jackbusiness1211@gmail.com" id = "email">jackbusiness1211@gmail</a>
+		</footer>
+	</body>
+	</div>
+</html>
+	
